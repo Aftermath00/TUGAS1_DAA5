@@ -85,6 +85,7 @@ void hapus_data()
     cout << "| Pilih data yang akan dihapus (1 s.d. 5): ";
     cin >> x;
     cout << "+-------------------------------------------+" << endl;
+    
     if (x < n && x > 0)
     {
         for (int i = x; i < n; i++)
@@ -92,8 +93,8 @@ void hapus_data()
             strcpy(maba[i - 1].nama, maba[x].nama);
             maba[i - 1].nim = maba[x].nim;
             maba[i - 1].kom = maba[x].kom;
+            n--;
         }
-        n--;
     }
     else if (x == n)
         n--;
