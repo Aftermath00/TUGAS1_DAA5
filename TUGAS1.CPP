@@ -32,7 +32,7 @@ main()
     cout << "| 4. Tampilkan data         |" << endl;
     cout << "| 5. Keluar                 |" << endl;
     cout << "+---------------------------+" << endl;
-    cout << "| Pilih menu (1/2/3/4) ? : ";
+    cout << "| Pilih menu (1/2/3/4/5) ? : ";
     cin >> pil;
     cout << "+---------------------------+" << endl;
     if (pil == 1)
